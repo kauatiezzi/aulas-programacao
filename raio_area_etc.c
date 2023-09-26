@@ -2,7 +2,7 @@
 #include <math.h>
 #include <locale.h>
 
-// FUNÇÕES
+// FUNÃ‡Ã•ES
 
 int raio() {
 
