@@ -30,7 +30,7 @@ int main() {
         return 0;
     }
     if(x1 == -88) {
-        printf("Div por 0: Operação cancelada. \n");
+        printf("Menor que 0: Operação cancelada. \n");
         return 0;
     }
 
