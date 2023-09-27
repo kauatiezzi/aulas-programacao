@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <math.h>
+#include <locale.h>
 
 void bhaskara(double a, double b, double c, double *x1, double *x2) {
 
@@ -22,7 +23,7 @@ void bhaskara(double a, double b, double c, double *x1, double *x2) {
 int main() {
 
    double a=1, b=4, c=2, x1, x2;
-
+    setlocale(LC_ALL, "Portuguese");
     bhaskara(a,b,c,&x1,&x2);
 
     if(x1 == -99) {
