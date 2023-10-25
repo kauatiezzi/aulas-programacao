@@ -1,0 +1,26 @@
+//REPETIÇÃO 1 A 5
+
+//PILHA DE NÚMEROS
+
+#include <stdio.h>
+
+int main() {
+
+    int x,y, linhas = 5;
+
+    for(x=1; x<=linhas; x++) {
+        for(y=1; y<=x; y++) {
+            printf("%d", y);
+        }
+        printf("\n");
+    }
+
+    for (x=linhas-1; x>= 1; x--) {
+        for (y = 1; y<=x; y++) {
+            printf("%d", y);
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
